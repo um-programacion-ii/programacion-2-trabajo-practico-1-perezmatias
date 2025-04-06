@@ -64,15 +64,6 @@ public class Vehiculo {
     }
 
 
-    public void mostrarInformacion() {
-        System.out.println("--- Vehículo ---");
-        System.out.println("Patente: " + this.patente);
-        System.out.println("Marca: " + this.marca);
-        System.out.println("Año: " + this.anio);
-        System.out.println("Capacidad Carga (Kg): " + this.capacidadCargaKg);
-        System.out.println("----------------");
-    }
-
 
     @Override
     public String toString() {
