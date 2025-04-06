@@ -1,5 +1,7 @@
 
+
 public class VehiculoPrinter {
+
 
     public void imprimirInformacion(Vehiculo vehiculo) {
 
@@ -9,10 +11,19 @@ public class VehiculoPrinter {
         }
 
         System.out.println("--- Vehículo (Impreso por VehiculoPrinter) ---");
+
         System.out.println("Patente: " + vehiculo.getPatente());
         System.out.println("Marca: " + vehiculo.getMarca());
         System.out.println("Año: " + vehiculo.getAnio());
         System.out.println("Capacidad Carga (Kg): " + vehiculo.getCapacidadCargaKg());
+
+
+        if (vehiculo instanceof Camion) {
+
+            Camion camion = (Camion) vehiculo;
+
+            System.out.println("Tiene Acoplado: " + (camion.isTieneAcoplado() ? "Sí" : "No"));
+        }
 
         System.out.println("--------------------------------------------");
     }
