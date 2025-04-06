@@ -1,5 +1,4 @@
 
-
 public class VehiculoPrinter {
 
 
@@ -19,11 +18,15 @@ public class VehiculoPrinter {
 
 
         if (vehiculo instanceof Camion) {
-
-            Camion camion = (Camion) vehiculo;
-
+            Camion camion = (Camion) vehiculo; // Cast a Camion
             System.out.println("Tiene Acoplado: " + (camion.isTieneAcoplado() ? "Sí" : "No"));
         }
+
+        else if (vehiculo instanceof Auto) {
+            Auto auto = (Auto) vehiculo; // Cast a Auto
+            System.out.println("Cantidad de Pasajeros: " + auto.getCantidadPasajeros());
+        }
+
 
         System.out.println("--------------------------------------------");
     }
