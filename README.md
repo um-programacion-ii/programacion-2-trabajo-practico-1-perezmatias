@@ -160,6 +160,55 @@ Implementar la clase base `Vehiculo` que servirá como punto de partida para la 
 
 ---
 
+# Sistema de Gestión de Vehículos (Trabajo Práctico)
+
+## 📌Autor
+
+* **Matias Agustin Perez**
+* **Legajo: 61218**
+
+## Tecnologías Utilizadas
+
+* Java SE (Compilado y probado con **JDK 21.0.2**)
+* Git
+* GitHub (Issues, Projects, Milestones, Pull Requests, Branch Protection)
+
+## Requisitos Previos
+
+Para compilar y ejecutar este proyecto, necesitarás:
+
+1.  **Git:** Para clonar el repositorio.
+2.  **Java Development Kit (JDK):** Versión 8 o superior. Se utilizó específicamente la **versión 21.0.2**.
+
+## Instrucciones de Instalación y Ejecución
+
+### 1. Clonar el Repositorio
+
+Abre una terminal o consola y ejecuta el siguiente comando:
+```bash
+git clone https://github.com/um-programacion-ii/programacion-2-trabajo-practico-1-perezmatias.git
+
+cd https://github.com/um-programacion-ii/programacion-2-trabajo-practico-1-perezmatias.git
+```
+
+### 2. Ejecutar
+
+1. Abre el proyecto clonado con tu IDE (ej: IntelliJ IDEA).
+2. Espera a que el IDE configure el proyecto y detecte el JDK.
+3. Navega hasta el archivo src/Main.java.
+4. Haz clic derecho sobre el archivo Main.java.
+5. Selecciona la opción "Run 'Main.main()'" o similar.
+6. La salida del programa y la parte interactiva aparecerán en la consola integrada del IDE.
+7. Se mostrará un mensaje de bienvenida y la lista inicial de vehículos en la flota.
+8. A continuación, verás el mensaje:
+    ```bash
+   --- Búsqueda Interactiva por Patente ---
+   Ingrese la patente a buscar (o escriba 'salir' para terminar):
+    ```
+9. Para buscar: Escribe una patente (ej: HIJ456) y presiona Enter. El programa mostrará los detalles si la encuentra, o un mensaje si no.
+10. Para terminar: Escribe salir (no importa mayúsculas/minúsculas) y presiona Enter. El programa finalizará limpiamente.
+
+---
 ## 📝 Licencia
 
 Este trabajo es parte del curso de Programación 2 de Ingeniería en Informática. Uso educativo únicamente.
